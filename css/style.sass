@@ -1,0 +1,222 @@
+html
+  box-sizing: border-box
+
+*,
+*::after,
+*::before
+  box-sizing: inherit
+
+a
+  text-decoration: none
+  color: inherit
+  display: inline-block
+
+ul,li
+  margin: 0
+  padding: 0
+  list-style: none  
+
+h1,h2,h3,h4,h5,h6
+  margin: 0
+p
+  margin: 0    
+
+
+
+body
+  font-family: 'Inter', sans-serif
+  font-weight: 500
+  font-size: 18px
+  line-height: 20px
+  color: #18216D
+  min-width: 320px
+
+
+.container
+  max-width: 1230px
+  margin: 0 auto
+  padding: 0 15px
+
+
+.header
+  padding-top: 41px    
+
+
+.navbar
+  max-width: 1370px
+  padding: 0 15px
+  margin: 0 auto
+  display: flex
+  justify-content: space-between
+  align-items: center  
+  &__items
+    display: flex
+    align-items: center
+  &__logo
+    margin-right: 110px   
+  &__list
+    &:not(:last-child)
+      margin-right: 50px
+  &__registration-btn
+    border: none
+    background-color: transparent
+    outline: none
+    color: #18216D
+    margin-right: 45px
+  &__download-btn
+    background: #18216D
+    border: none
+    border-radius: 6px  
+    font-size: 17px
+    color: #fff
+    padding: 16px 27px
+
+.meeting
+  margin-bottom: 121px
+  &__inner
+    display: flex
+  &__left-content
+    max-width: 498px
+    padding-top: 161px
+  &__title
+    font-weight: 600
+    font-size: 48px
+    line-height: 60px 
+    margin-bottom: 16px
+  &__text
+    font-weight: 400
+    font-size: 17px
+    line-height: 28px 
+    margin-bottom: 34px
+  &__img
+    width: 100%   
+    padding-top: 83px   
+  &__mobile-img
+    width: 100%
+    display: none  
+  &__start
+    background: #00ECD0
+    border-radius: 6px
+    font-size: 17px
+    line-height: 21px
+    padding: 23px 38px 
+    border: none
+    outline: none 
+    
+
+.collaborate
+  margin-bottom: 51px
+  &__inner
+    display: flex
+  &__info
+    max-width: 494px 
+    margin-right: 277px
+  &__title
+    font-weight: 600
+    font-size: 36px
+    line-height: 50px   
+  &__download-img
+    margin-right: 128px  
+ 
+
+.partners
+  margin-bottom: 130px
+  &__items
+    display: flex
+    padding-left: 40px
+    justify-content: space-between
+  &__list
+    &:not(:last-child)
+      margin-right: 80px
+
+
+.features
+  padding-bottom: 130px
+  &__info
+    max-width: 542px
+    text-align: center
+    margin: 0 auto
+    margin-bottom: 48px
+  &__title
+    font-weight: 600
+    font-size: 48px
+    line-height: 64px
+    letter-spacing: -1px
+    text-transform: capitalize 
+    margin-bottom: 12px
+  &__text
+    font-weight: 400
+    font-size: 16px
+    line-height: 30px
+    &-mobile
+      display: none
+      font-size: 14px
+      line-height: 20px
+      color: rgba(24,33 ,109 ,.5 )
+  &__inner
+    display: flex  
+  &__item
+    max-width: 320px
+    &:not(:last-child)
+      margin-right: 80px
+          
+  &__item-title
+    font-weight: 600
+    font-size: 24px
+    line-height: 29px
+    margin-top: 28px
+    margin-bottom: 14px
+  &__item-text
+    font-weight: 400
+    font-size: 16px
+    line-height: 26px
+    margin-bottom: 30px
+  &__link-more
+    font-size: 20px
+    line-height: 16px 
+      
+      
+
+.dropbtn
+  border: none
+  background: transparent
+
+ 
+.dropdown
+  height: 44px
+  position: relative
+  display: none
+
+
+.dropdown-content
+  display: none
+  font-size: 14px
+  font-weight: 700
+  line-height: 15px
+  font-size: 18px
+  top: 35px
+  right: -14px
+  position: absolute
+  background-color: #DDDAE7
+  border-radius: 10px
+  min-width: 210px
+  overflow: auto
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 999
+  padding: 20px 0
+
+
+.dropdown-content a
+  padding: 12px 16px
+  text-decoration: none
+  display: block
+
+
+.show 
+  display: block
+
+.mobile
+  &__logo
+    display: none
+  
+
